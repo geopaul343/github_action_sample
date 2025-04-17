@@ -99,9 +99,6 @@ class _ExampleState extends State<Example> {
         },
       ),
     );
-
-
-
     final nodes = [
       rectangleNode,
       triangleNode,
