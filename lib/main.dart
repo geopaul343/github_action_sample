@@ -79,6 +79,7 @@ class _ExampleState extends State<Example> {
         },
       ),
     );
+
     final circleNode = InfiniteCanvasNode(
       key: UniqueKey(),
       label: 'Circle',
