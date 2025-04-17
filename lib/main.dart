@@ -137,10 +137,7 @@ class _ExampleState extends State<Example> {
 }
 
 class InlineCustomPainter extends CustomPainter {
-  const InlineCustomPainter({
-    required this.brush,
-    required this.builder,
-    this.isAntiAlias = true,
+  const InlineCustomPainter({ required this.brush, required this.builder, this.isAntiAlias = true,
   });
   final Paint brush;
   final bool isAntiAlias;
